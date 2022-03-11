@@ -34,6 +34,9 @@
 
     <title>Truck service</title>
     <style>
+        body{
+            overflow-x: hidden;
+        }
 
 
       .logo {
@@ -73,6 +76,7 @@ height: 152px;
 left: 0px;
 top: 0px;
 
+
 font-family: Inter;
 font-style: normal;
 font-weight: bold;
@@ -96,6 +100,16 @@ margin: 16px 0px;
     color: white;
     border-radius: 8px;
 
+    width: 196px;
+height: 52px;
+
+background: #4762FF;
+border-radius: 8px;
+
+
+
+
+
 }
 .servicebtn{
     font-family: Inter;
@@ -116,6 +130,11 @@ line-height: 76px;
 }
 .tg{
     /* overflow: hidden; */
+}
+.heroimg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
 }
     </style>
   </head>
@@ -191,7 +210,7 @@ line-height: 76px;
                     </figure>
                 </div>
                    <div class="col-8">
-                       <ul class=" d-flex justify-content-md-evenly fff">
+                       <ul class=" d-flex justify-content-evenly fff">
                            <li>    Главная</li>
                            <li> Контакты </li>
                            <li>   Следите за нами</li>
@@ -200,7 +219,7 @@ line-height: 76px;
                    </div> 
 
                    <div class="col-2 " >
-                       <button class="btn btn-primary submit  text-light w-100 h-5 " style="background-color: #4762FF;" > Заказать  </button>
+                       <button class="btn  submit  text-light w-100 h-5 " style="background-color: #4762FF;" > Заказать звонок </button>
                    </div>
  
             </div>
@@ -208,27 +227,29 @@ line-height: 76px;
 
 <div class="d-flex">
 
-<div class="d-flex flex-column">
+<div class="d-flex flex-column mx-4 w-50 ">
     <h1 class="heroText hd">
         Affordable
          truck service 
 
    </h1>
-   <p class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, asperiores?.</p>
+   <p class=""> Lorem ipsum dolor sit amm id integer Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, asperiores?.</p>
 
-   <button class="heroBtn p-2 w-25 ">
+   <button class="heroBtn  ">
        Чета сделать
    </button>
 
 
 </div>
 
-<img src="./images/HERO IMAGE.png"  style="text-align: right;" class="offset-2 tg" alt="">
+<img src="./images/HERO IMAGE.png"   class="heroimg" alt="">
 </div>
 
 
-<h1 class="hd p-2 servicebtn text-center">
-    Любые услуги за ваши денишки
+<div class="card_section mx-4 h-5 py-5  my-5">
+
+    <h1 class="hd p-2 servicebtn text-center">
+        Любые услуги за ваши денишки
 </h1>
 <p class=" m-5 px-5 text-center  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
 <div class="row d-flex ">
@@ -322,30 +343,32 @@ line-height: 76px;
                     <div class="col-4">
                         <img class='' src="./images/4th.png" alt="">
                     </div>
-
+                    
                 </div>
+            </div>
+            
+            
+            
         </div>
-
-
+        
+        
+        
+        
+        
         
     </div>
 
- 
-   
-
-
-
-        </div>
-
-
-
-        <div class="row  d-md-flex secta  py-5 my-5">
+</div>
+    
+    
+    
+    <div class="row  d-flex secta  py-5 my-5">
+        
+        <div class="  d-flex col pt-3  ">
             
-            <div class="  d-md-flex col pt-3  ">
-                
             <div class="col  d-flex flex-column ">
                 <div class="">
-
+                    
                     <h1 class='pb-2 hd'>У вас вопрос кто мы а кто мы блин    </h1>
                     
                     <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
@@ -369,28 +392,26 @@ line-height: 76px;
         </div>
     </div> 
     
+</div> 
+<!-- container tag  -->
 
 
-    
-    
-    
-    
-    
-    
-    <!-- <div class="container "> -->
-        <div class="row  d-md-flex my-5  ">
 
+
+    <div class="conatainer-fluid   fullw">
+        <div class="row  d-flex my-5   ">
     
-            <div class=" d-md-flex  col  ">
+        
+            <div class=" d-flex   w-100   ">
                 
-                <div class="col w-100 d-flex flex-column ">
-        <div class="mapsection p-5   pb-5 " style="height: 544px;">
+                <div class="col  d-flex flex-column ">
+        <div class="mapsection p-5  pb-5 " style="height: 544px;">
             
-            <h1 class='pb-2 hd py-5'> Где мы?   </h1>
+            <h1 class='pb-2 hd py-5 offset-3'> Где мы?   </h1>
             
-            <p class="py-2 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 offset-3 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st offset-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st  offset-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
             
         </div>
         
@@ -402,10 +423,19 @@ line-height: 76px;
             
         </figure>
     </div>
-</div>
+    </div>
+    
+    
+    </div>
+    </div>
+    
+    
+    
+    
+    
     
 
-</div>
+      
 
 
 
@@ -430,7 +460,6 @@ line-height: 76px;
 </div>
 
 
-</div>
 
 
 
@@ -439,7 +468,7 @@ line-height: 76px;
 
 <!-- </div>  -->
 
-<div   class= 'cform d-md-flex h-full bg-img'   >
+<div   class= 'cform d-flex h-full bg-img'   >
     <div class=" row offset-4  "  >
     <div class=" col py-5 m-5 ">
 
@@ -471,6 +500,8 @@ line-height: 76px;
     </div>
     </div>
 </div>
+
+
 
 
 

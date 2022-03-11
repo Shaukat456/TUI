@@ -135,9 +135,22 @@ background-size: contain;
 }
 
 .fff{
-    font-family: 'Inter';
+    
+
+font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 /* line-height: 19px; */
+
+
+
+
+
+
+
+/* line-height: 19px; */
+}
+.fullw{
+    width: 123vw;
 }
