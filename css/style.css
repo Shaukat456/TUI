@@ -130,3 +130,14 @@ background-size: contain;
     z-index: -1;
     /* object-fit: fill; */
 }
+.btnbg{
+    background: #4762FF;
+}
+
+.fff{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+/* line-height: 19px; */
+}
