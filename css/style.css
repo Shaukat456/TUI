@@ -40,8 +40,21 @@ li{
 }
 
 input{
-    border-radius: 5px;
-    background-color: #4762FF14;
+    
+    width: 469px;
+height: 56px;
+/* left: 0px; */
+/* top: 0px; */
+
+background: rgba(71, 98, 255, 0.08);
+border-radius: 8px;
+
+
+
+
+
+
+
 }
 .cform{
     display: flex;
