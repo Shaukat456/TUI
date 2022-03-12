@@ -1,0 +1,52 @@
+ @media only screen and (max-width: 992px) {
+     body{
+         overflow-x: hidden;
+
+
+     }
+          .upernav{
+              font-size: .4rem;
+              /* padding-left:6% ; */
+
+          }
+          .uppernav img{
+                min-width: 20%;
+          }
+
+          .bg-img img{
+           display: none;
+          }
+          .bg-img{
+              outline: none;
+          }
+
+          .footer{
+              display: flex;
+              flex-direction: column;
+              height: 100vh;
+              font-size: .7rem;
+             
+          }
+          .footer img{
+              width: 50%;
+          }
+
+         
+    }
+
+
+
+
+
+#second{
+    order: 2;
+}
+
+#first{
+    order: 1;
+}
+
+.copys{
+    position: absolute;
+    bottom: 0;
+}
