@@ -13,11 +13,16 @@
                 min-width: 20%;
           }
 
+          .heroimg{
+              opacity: .3;
+          }
+
           .bg-img img{
            display: none;
           }
           .bg-img{
               outline: none;
+              height: 100%;
           }
 
           .footer{
@@ -30,10 +35,25 @@
           .footer img{
               width: 50%;
           }
+          
 
          
     }
 
+
+    @media (min-width:992px){
+        .cform{
+            /* display: flex; */
+
+            /* display: none; */
+        }
+        .box{
+            /* display: flex; */
+            /* width: 100%; */
+            /* height: auto; */
+            /* justify-content: center; */
+        }
+     }
 
 
 
