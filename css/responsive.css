@@ -127,6 +127,17 @@
      }
 
 
+
+     @media only screen and (max-width: 500px) {
+       
+            .lnv{
+                /* gtex */
+                text-align: left;
+            
+        }
+
+     }
+
 #second{
     order: 2;
 }
