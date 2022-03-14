@@ -1,20 +1,46 @@
- @media only screen and (max-width: 992px) {
+ @media only screen and (max-width: 800px) {
+     html{
+         font-size: 1rem;
+     }
      body{
          overflow-x: hidden;
 
 
      }
           .upernav{
-              font-size: .4rem;
+              display: flex;
+              font-size: .5rem;
+              
               /* padding-left:6% ; */
 
           }
-          .uppernav img{
-                min-width: 20%;
+          .uul{
+              margin-top: 5%;
           }
+          .uppernav img{
 
+                /* min-width: 20%; */
+          }
+          .navtext{
+              font-size: .6rem;
+              
+
+          }
+          .lnv{
+              /* gtex */
+              text-align: left;
+          }
+      
+          .navtext  li {
+              margin-left: 5%;
+          }
           .heroimg{
               opacity: .3;
+          }
+          .heroText h1{
+              display: flex;
+              flex-wrap: wrap;
+            font-size: 1rem;
           }
 
           .bg-img img{
@@ -24,11 +50,19 @@
               outline: none;
               height: 100%;
           }
+          button , .btn{
+              font-size: .4rem;
+              /* width: 3px; */
+              padding: 2%;
+          }
+          #second{
+              font-size: 1rem;
+          }
 
           .footer{
               display: flex;
               flex-direction: column;
-              height: 100vh;
+              /* height: 100vh; */
               font-size: .7rem;
              
           }
