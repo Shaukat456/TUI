@@ -3,7 +3,7 @@
          font-size: 1rem;
      }
      body{
-         overflow-x: hidden;
+         /* overflow-x: hidden; */
 
 
      }
@@ -51,21 +51,38 @@
               height: 100%;
           }
           button , .btn{
-              font-size: .4rem;
+              font-size: .6rem;
               /* width: 3px; */
-              padding: 2%;
+              padding: .6%;
           }
           #second{
               font-size: 1rem;
           }
 
+          .heroBtn{
+            padding: .6%;
+          }
+          .fullw{
+              /* width: 50vw; */
+          }
+          .sec3{
+              font-size: .7rem;
+          }
+          .mapp{
+              max-width: 100vw;
+              min-width: 100vw;
+          }
+
           .footer{
               display: flex;
               flex-direction: column;
+              flex-wrap: wrap;
               /* height: 100vh; */
               font-size: .7rem;
+              height: 100vh;
              
           }
+
           .footer img{
               width: 50%;
           }
@@ -89,7 +106,25 @@
         }
      }
 
+     @media only screen and (max-width: 350px) {
+         html{
+             font-size: 1rem;
+         }
+        .servicebtn{
+            font-size: 2rem;
+        }
+        .servicebtn p{
+            font-size: .5rem
 
+        }
+        .brandsimg{
+            /* min-width: 50px; */
+        }
+
+        .cform{
+            font-size: .7rem ;
+        }
+     }
 
 
 #second{
