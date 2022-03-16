@@ -1,0 +1,12 @@
+uppernav left border
+card padding, img fix
+btn fonts 
+responsiveness
+
+
+
+navbar fonts semi-bold
+affortable p fonts
+
+
+all p  fonts
