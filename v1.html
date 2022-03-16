@@ -4,19 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
 
  
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@700&family=Titan+One&display=swap" rel="stylesheet">
-    
 
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +29,7 @@
     />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-  
+    <link rel="stylesheet" href="./css/responsive.css">
     
    
 
@@ -41,9 +39,6 @@
             overflow-x: hidden;
         }
 
-        .bleft{
-            border-left: 2px solid #3333331A;
-        }
 
       .logo {
         position: absolute;
@@ -130,6 +125,9 @@ line-height: 76px;
 .trucks{
     /* z; */
 }
+.lnv{
+    text-align: right;
+}
 .ntt{
     background-color: #4762FF;
     border-radius: 5px;
@@ -161,16 +159,16 @@ border-radius: 8px;
     <div class="header ">
         <div class="container ">
            
-            <div class="row  py-3 mx-3  " >
+            <div class="row  py-3 mx-3 flex-wrap d-lg-flex upernav" >
                 
-                <div class="col bR d-md-flex ">
+                <div class="col bR d-lg-flex ">
                    
-                        <div class="col-2">
+                        <div class="col-md-2">
                             
                             <img src="./images/Vector.png" class="m-1" alt="">
                             </div>
 
-                            <div class="col">
+                            <div class="col uul">
                                 <li>Наш адрес:</li>
                                 <li>г. Бишкек, ул. Ля 69</li>
         
@@ -180,15 +178,15 @@ border-radius: 8px;
                 </div>
 
 
-                   <div class="col-3 d-flex bleft">
+                   <div class="col-md-3 d-lg-flex">
                        
                    <!-- <div class="d-flex"> -->
-                       <div class="col-1">
+                       <div class="col-md-1">
 
                            
-                           <img src="./images/Vector (1).png " class="img-thumbnai    " alt="">
+                           <img src="./images/Vector (1).png " class="img-thumbnail  " alt="">
                         </div>
-                        <div class="col">
+                        <div class="col uul">
 
                             <li>График работы:</li>
                         
@@ -197,7 +195,7 @@ border-radius: 8px;
                         </div>
                    </div> 
 
-                   <div class="col-7   " style="text-align: right;">
+                   <div class="col-lg-7 uul col-sm-2 lnv" >
                     <!-- <img src="./images/Vector (2).png" class="img-thumbnai" alt=""> -->
                        <!-- <div class="d-flex "> -->
                         <!-- <span class="d-flex"> -->
@@ -221,12 +219,12 @@ border-radius: 8px;
 
             <div class="row py-3 mx-3 ">
                 
-                <div class="col-2 ">
+                <div class="col-lg-2  text-center">
                     <figure>
                         <img src="./images/logo.png" alt="">
                     </figure>
                 </div>
-                   <div class="col-8">
+                   <div class="col-lg-8 navv">
                        <ul class="navtext  d-flex justify-content-evenly fff">
                            <li>    Главная</li>
                            <li> Контакты </li>
@@ -235,16 +233,16 @@ border-radius: 8px;
                        </ul>
                    </div> 
 
-                   <div class="col-2 " >
-                       <button class="btn  fff submit  text-light w-100 h-5 " style="background-color: #4762FF;" > Заказать звонок </button>
+                   <div class="col-lg-2 " >
+                       <button class="btn  submit  text-light w-100 h-5 " style="background-color: #4762FF;" > Заказать звонок </button>
                    </div>
  
             </div>
 
 
-<div class="d-flex">
+<div class="d-lg-flex ">
 
-<div class="d-flex flex-column mx-md-4 mx-sm-5 w-50 ">
+<div class="d-flex flex-column  mx-md-4 mx-sm-5 w-50  " id="second">
     <h1 class="heroText hd">
         Affordable
          truck service 
@@ -259,16 +257,16 @@ border-radius: 8px;
 
 </div>
 
-<img src="./images/HERO IMAGE.png"   class="heroimg   " alt="">
+<img src="./images/HERO IMAGE.png"   class="heroimg  " alt="" id="first">
 </div>
 
 
-<div class="card_section mx-4 h-5 py-5   my-5">
+<div class="card_section mx-4 h-5   py-5  my-5">
 
-    <h4 class="hd p-2  text-center siiz">
+    <h1 class="hd p-2 servicebtn text-center">
         Любые услуги за ваши денишки
-</h4>
-<p class=" py-1  pdi text-center w-75      ">Lorem ipsum dolor  Lorem ipsum dol Lorem ipsum dolor sit amet conselit. Officia, aliquid! in et, lectus sit lorem id integer.</p>
+</h1>
+<p class=" m-5 px-md-5 text-center  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
 <div class="row d-flex ">
 
 
@@ -276,7 +274,7 @@ border-radius: 8px;
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-1   ">
+            <div class="mycard  d-flex p-5   ">
                 <div class="col-8">
                         <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
                         <p class="card-text pt-4">
@@ -286,7 +284,7 @@ border-radius: 8px;
                     </div>
 
                     <div class="col-4">
-                        <img class='' src="./pngs/1st-removebg-preview.png" alt="">
+                        <img class='img-fluid' src="./pngs/1st-removebg-preview.png" alt="">
                     </div>
 
                 </div>
@@ -300,7 +298,7 @@ border-radius: 8px;
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-1  ">
+            <div class="mycard  d-flex p-5  ">
                 <div class="col-8">
                         <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
                         <p class="card-text pt-4">
@@ -310,7 +308,7 @@ border-radius: 8px;
                     </div>
 
                     <div class="col-md-4">
-                        <img class='' src="./images/4th.png" alt="">
+                        <img class='img-fluid' src="./images/4th.png" alt="">
                     </div>
 
                 </div>
@@ -325,7 +323,7 @@ border-radius: 8px;
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-1   ">
+            <div class="mycard  d-flex p-5   ">
                 <div class="col-8">
                         <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
                         <p class="card-text pt-4">
@@ -335,7 +333,7 @@ border-radius: 8px;
                     </div>
 
                     <div class="col-4">
-                        <img class='' src="./pngs/3rd-removebg-preview.png" alt="">
+                        <img class='img-fluid' src="./pngs/3rd-removebg-preview.png" alt="">
                     </div>
 
                 </div>
@@ -348,7 +346,7 @@ border-radius: 8px;
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-1   ">
+            <div class="mycard  d-flex p-5   ">
                 <div class="col-8">
                         <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
                         <p class="card-text pt-4">
@@ -358,7 +356,7 @@ border-radius: 8px;
                     </div>
 
                     <div class="col-4">
-                        <img class='' src="./images/4th.png" alt="">
+                        <img class='img-fluid' src="./images/4th.png" alt="">
                     </div>
                     
                 </div>
@@ -383,7 +381,7 @@ border-radius: 8px;
         
         <div class="  d-lg-flex col pt-3  ">
             
-            <div class="col  d-flex flex-column ">
+            <div class="col  d-lg-flex ">
                 <div class="">
                     
                     <h1 class='pb-2 hd'>У вас вопрос кто мы а кто мы блин    </h1>
@@ -397,9 +395,9 @@ border-radius: 8px;
                 
             </div>
             
-            <div class="col-6   ">
+            <div class="col-6 ">
                 <figure>
-                    <img src="./images/branch.png" alt="" class="offset-2 ">
+                    <img src="./images/branch.png" alt="" class=" brandsimg ">
                     
                 </figure>
             </div>
@@ -419,16 +417,16 @@ border-radius: 8px;
         <div class="row  d-lg-flex my-5   ">
     
         
-            <div class=" d-flex   w-100   ">
+            <div class=" d-lg-flex   w-100   ">
                 
                 <div class="col  d-lg-flex flex-column ">
         <div class="mapsection p-5  pb-5 " style="height: 544px;">
             
             <h1 class='pb-2 hd py-5 offset-3'> Где мы?   </h1>
             
-            <p class="py-2 offset-3 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st offset-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st  offset-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 offset-lg-3 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st offset-lg-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st  offset-lg-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
             
         </div>
         
@@ -436,7 +434,7 @@ border-radius: 8px;
     
     <div class="col-6   ">
         <figure>
-            <img src="./images/Google-Maps-Frontpage 1.jpg" alt="" class=" ">
+            <img src="./images/Google-Maps-Frontpage 1.jpg" alt="" class=" mapp ">
             
         </figure>
     </div>
@@ -444,7 +442,7 @@ border-radius: 8px;
     
     
     </div>
-    </div>
+    </div> 
     
     
     
@@ -485,14 +483,14 @@ border-radius: 8px;
 
 <!-- </div>  -->
 
-<div   class= 'cform d-flex h-full bg-img'   >
-    <div class=" row offset-4  "  >
-    <div class=" col py-5 m-5 ">
+<div   class= 'cform d-lg-flex   h-sm-full bg-img'  >
+    <div class=" row offset-lg-4 p-md-5 "  >
+    <div class=" col p-md-5 m-lg-5 ">
 
 
-        <div class="box bg-white   offset-5  text-dark w-50 p-5   " >
-            <div class="d-lg-flex flex-column   " >
-                <h2 class=" hd py-3 display-3">
+        <div class="box bg-white  my-md-5  offset-lg-5  text-dark w-lg-50 p-md-5    " >
+            <div class="d-lg-flex  flex-column   " >
+                <h2 class=" hd py-5  display-3">
                     <strong>
                         Остались вопросы?
                         
@@ -509,7 +507,7 @@ border-radius: 8px;
                 <input type="text" class=" p-3   instyle  pb-3 form-control" placeholder="Номер телефона" aria-label="Example text with button addon" aria-describedby="button-addon1">
               </div>
 
-              <button class="btn  submit w-100 p-3 hd  text-light submit " style=" font-family: Inter;  background-color: #4762FF;">Отправить</button>
+              <button class="btn submit w-100 p-3 hd  text-light submit " style=" font-family: Inter;  background-color: #4762FF;">Отправить</button>
             
         </div>
 
@@ -524,13 +522,13 @@ border-radius: 8px;
 
 
 
-<div class="text-light pb-0 mb-0 footer footerbg">
+<div class="text-light pb-0 mb-0  footer footerbg">
     <div class="row  w-100 ">
         
-        <div class="col p-5 d-flex    col-12">
+        <div class="col p-5 d-sm-flex     col-12">
             <div class="col-3  ">
                 <figure>
-                    <img src="./images/footerlogo1.png" class="img-fluid offset-5" alt="">
+                    <img src="./images/footerlogo1.png" class="img-md-fluid offset-md-5" alt="">
                 </figure>
             </div>
             <div class="col-3 "> 
@@ -596,11 +594,11 @@ border-radius: 8px;
         </div>
         <!-- <im    g src="./images/logo.png"  class='img-thumbnail' alt=""> -->
        
-            <footer class=" text-left offset-2 w-75">
+            <footer class=" text-left offset-2 w-75 ">
             
                 <!-- <span class=""> -->
     
-                    <p class="py-3 pb-2">Copyright © Truck Services 2022. All rights reserved.</p>
+                    <p class="py-3 pb-2  ">Copyright © Truck Services 2022. All rights reserved.</p>
                 <!-- </span> -->
             </footer>
     </div>
