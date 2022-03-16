@@ -9,9 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
+
+
+
+
+
+
+
+
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+   
 
  
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +33,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+    
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -280,7 +298,7 @@ border-radius: 8px;
                 <div class="col-8">
                         <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
                         <p class="card-text pt-4">
-                            Б/у запчасти для грузовых авто из Европы
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
                         </p>    
                         
                     </div>
@@ -302,9 +320,9 @@ border-radius: 8px;
         <div class=" mycard  p-3     ">
             <div class="mycard  d-flex p-1  ">
                 <div class="col-8">
-                        <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
+                        <h5 class="card-title hd">Автомойка грузовых и легковых авто</h5>
                         <p class="card-text pt-4">
-                            Б/у запчасти для грузовых авто из Европы
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
                         </p>    
                         
                     </div>
@@ -327,9 +345,9 @@ border-radius: 8px;
         <div class=" mycard  p-3     ">
             <div class="mycard  d-flex p-1   ">
                 <div class="col-8">
-                        <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
+                        <h5 class="card-title hd ">Магазин аксессуаров</h5>
                         <p class="card-text pt-4">
-                            Б/у запчасти для грузовых авто из Европы
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
                         </p>    
                         
                     </div>
@@ -350,9 +368,9 @@ border-radius: 8px;
         <div class=" mycard  p-3     ">
             <div class="mycard  d-flex p-1   ">
                 <div class="col-8">
-                        <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
+                        <h5 class="card-title hd ">Пункт замены масла легковых авто</h5>
                         <p class="card-text pt-4">
-                            Б/у запчасти для грузовых авто из Европы
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
                         </p>    
                         
                     </div>
@@ -415,20 +433,20 @@ border-radius: 8px;
 
 
 
-    <div class="conatainer-fluid  sec3  fullw">
+    <div class="conatainer-fluid  sec3 fullw " id="maps">
         <div class="row  d-lg-flex my-5   ">
     
         
-            <div class=" d-flex   w-100   ">
+            <div class=" d-lg-flex      ">
                 
                 <div class="col  d-lg-flex flex-column ">
-        <div class="mapsection p-5  pb-5 " style="height: 544px;">
+        <div class="mapsection p-xl-5 p-md-3  pb-5 " style="height: 544px;">
             
-            <h1 class='pb-2 hd py-5 offset-3'> Где мы?   </h1>
+            <h1 class='pb-2 hd py-5 offset-lg-3'> Где мы?   </h1>
             
-            <p class="py-2 offset-3 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st offset-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st  offset-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 offset-lg-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2  offset-lg-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 offset-lg-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
             
         </div>
         
@@ -614,7 +632,19 @@ border-radius: 8px;
 </div>
      
 
-   
+   <script>
+       const mapsection=document.getElementById("maps");
+       window.addEventListener("resize", function() {
+  if (window.innerWidth < 992) {
+        mapsection.classList.remove("fullw")
+  }
+    
+  if(window.innerWidth > 992){
+    mapsection.classList.add("fullw")
+
+  }
+});
+   </script>
 
 
     
