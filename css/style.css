@@ -8,13 +8,19 @@ ul li{
 }
 .mycard{
     background-color: #F4F6FA;
-    background: #F4F4F4;
+    /* background: #F4F4F4; */
+    
 
 }
 .mapsection{
     background: #F4F4F4;
     /* width: 100vw; */
 
+}
+.cimg{
+
+    /* right: 0; */
+    /* left: 0; */
 }
 .ftext p{
     font-family: 'Inter';
