@@ -182,7 +182,10 @@ overflow: hidden;
 .timg{
     width: 100vw;
 }
-
+.prr{
+    position: relative;
+    right: 0;
+}
 
 .f{
     border-radius: 20px;
