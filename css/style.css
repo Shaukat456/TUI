@@ -19,14 +19,15 @@ ul li{
 .ftext p{
     font-family: 'Inter';
 font-style: normal;
-font-weight: 500;
+font-weight: 200;
 font-size: 1.25rem;
 }
 .ftext {
     font-family: 'Inter';
 font-style: normal;
-font-weight: 200;
-font-size: 1.25rem;
+font-weight: 400;
+font-size: 1rem;
+line-height: 30px;
 }
 
 
