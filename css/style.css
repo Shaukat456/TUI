@@ -58,8 +58,10 @@ background: rgba(71, 98, 255, 0.08);
 border-radius: 8px;
 
 
+}
 
-
+.extrap{
+    margin-top: 8.1rem;
 }
 .ptext{
     /* font-family: 'Inter', sans-serif; */
@@ -67,10 +69,17 @@ border-radius: 8px;
     font-family: 'Inter';
     font-style: normal;
     
-    font-weight:400, Regular ;
+    font-weight:500;
+    font-feature-settings: 'liga' off;
+    color: #333333CC;
+    font-size: 1.125rem;
 
 
 
+}
+.ptext2{
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 .cform{
     display: flex;
@@ -197,13 +206,11 @@ background-size: contain;
 }
 
 .btntext{
-
-/* width: 133px; */
-
 font-family: 'Inter';
 font-style: normal;
-font-weight:bolder;
-/* font-size: 2rem; */
+font-weight: 600;
+/* font-size: 16px; */
+line-height: 19px;
 
 
 }

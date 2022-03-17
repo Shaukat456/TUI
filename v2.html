@@ -15,6 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@700&family=Titan+One&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;800&display=swap" rel="stylesheet">
+
+
+
+
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
@@ -95,14 +102,13 @@ flex-grow: 0;
 margin: 16px 0px;
       }
 .heroBtn{
-    margin: 32px 0px;
+    /* margin: 32px 0px; */
     background: #4762FF;
     color: white;
-    border-radius: 8px;
-
     width: 196px;
 height: 52px;
-
+outline: none;
+border: none;
 background: #4762FF;
 border-radius: 8px;
 
@@ -121,6 +127,26 @@ line-height: 76px;
 .servicebtn p{
     
 }
+.bleft{
+    border-left: 1px solid #3333331A;
+}
+
+.n2{
+    /* font-family: 'inter'; */
+font-style: normal;
+font-weight:400;
+/* font-size: 14px; */
+line-height: auto;
+margin-bottom: 0;
+
+}
+.n1{
+    font-style: normal;
+font-weight:100;
+/* font-size: 14px; */
+line-height: auto;
+margin-bottom: 0;
+}
 .trucks{
     /* z; */
 }
@@ -137,7 +163,10 @@ line-height: 76px;
     z-index: -1;
 }
 .navtext{
-    font-weight: bold;
+    font-weight: 500;
+}
+.btn{
+    font-weight: 600;
 }
 .instyle{
     width: 469px;
@@ -147,26 +176,31 @@ background: rgba(71, 98, 255, 0.08);
 border-radius: 8px;
 
 }
+.bgrey{
+    background-color:  #FFFFFF;
+}
     </style>
   </head>
   <body>
 
     
     <div class="header ">
-        <div class="container ">
+        <div class="container  ">
            
-            <div class="row  py-3 mx-3  " >
+            <div class="row  py-3 mx-3  bgrey" >
                 
                 <div class="col bR d-md-flex ">
                    
                         <div class="col-2">
-                            
-                            <img src="./images/Vector.png" class="m-1" alt="">
+                            <figure>
+                                <img src="./images/Vector.png" class="" alt="">
+
+                            </figure>
                             </div>
 
                             <div class="col">
-                                <li>Наш адрес:</li>
-                                <li>г. Бишкек, ул. Ля 69</li>
+                                <li class="n1">Наш адрес:</li>
+                                <li class="n2">г. Бишкек, ул. Ля 69</li>
         
                             </div>
                  
@@ -174,54 +208,67 @@ border-radius: 8px;
                 </div>
 
 
-                   <div class="col-3 d-flex">
+                   <div class="col-3 d-flex bleft">
                        
                    <!-- <div class="d-flex"> -->
-                       <div class="col-1">
+                       <div class="col-md-1 ">
 
-                           
-                           <img src="./images/Vector (1).png " class="img-thumbnai    " alt="">
+                           <figure>
+
+                               <img src="./images/Vector (1).png " class="" alt="">
+                           </figure>
                         </div>
-                        <div class="col">
+                        <div class="col ">
 
-                            <li>График работы:</li>
+                            <li  class="n1">График работы:</li>
                         
                  <!-- </div> -->
-                     <li>С 8:00 до 22:00 без выходных</li>
+                     <li class="n2">С 8:00 до 22:00 без выходных</li>
                         </div>
                    </div> 
 
-                   <div class="col-7   " style="text-align: right;">
-                    <!-- <img src="./images/Vector (2).png" class="img-thumbnai" alt=""> -->
-                       <!-- <div class="d-flex "> -->
+                   <div class="col-7 justify-content-end " style="text-align: right;">
+                    <!-- <div class="d-flex "> -->
                         <!-- <span class="d-flex"> -->
-
-                            <li class="" >+7 (708) 51 51 518</li>
+                            
+                            
+                            
                             <!-- </div> -->
-                            <li class="">+7 (708) 51 51 518</li>
+                            <div class="d-flex justify-content-end" >
+                                
+                                <!-- <figure> -->
+                                    <img src="./images/cellphone.png" class="img-fluid" alt="">
+
+                                <!-- </figure> -->
+                                
+                                <li class="n2" >+7 (708) 51 51 518</li>
+                                
+
+                            </div>
+
+
+                            <li class="n2">+7 (708) 51 51 518</li>
                         <!-- </span> -->
                        
                    </div>
  
-            </div>
-
+                </div>
+                
+                <hr style=" width: 95%; text-align: center   ; margin-left: 31px; padding: 0;"> 
 
           
-            <hr style=" width: 95%; text-align: center  ; margin-left: 31px;"> 
             
-    
-
-
-
-            <div class="row py-3 mx-3 ">
+            
+            
+            <div class="row  mx-3  ">
                 
                 <div class="col-2 ">
                     <figure>
-                        <img src="./images/logo.png" alt="">
+                        <img src="./images/logo.png" alt="" class="">
                     </figure>
                 </div>
                    <div class="col-8">
-                       <ul class="navtext  d-flex justify-content-evenly fff">
+                       <ul class="navtext  d-flex py-2  justify-content-evenly align-center fff">
                            <li>    Главная</li>
                            <li> Контакты </li>
                            <li>   Следите за нами</li>
@@ -230,7 +277,9 @@ border-radius: 8px;
                    </div> 
 
                    <div class="col-2 " >
-                       <button class="btn  submit  text-light w-100 h-5 " style="background-color: #4762FF;" > Заказать звонок </button>
+                       <button class="btn btntext  p-2 text-light w-100  " style="background-color: #4762FF;" > 
+                        Заказать звонок 
+                    </button>
                    </div>
  
             </div>
@@ -244,36 +293,39 @@ border-radius: 8px;
          truck service 
 
    </h1>
-   <p class=""> Lorem ipsum dolor sit amm id integer Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, asperiores?.</p>
+   <p class="ptext"> Lorem ipsum dolor sit amm id integer Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, asperiores?.</p>
 
-   <button class="heroBtn  ">
+   <button class="heroBtn btntext ">
        Чета сделать
    </button>
 
 
 </div>
 
+
 <img src="./images/HERO IMAGE.png"   class="heroimg   " alt="">
+
+
 </div>
 
 
-<div class="card_section mx-4 h-5 py-5  my-5">
+<div class="card_section  h-5 py-5   extrap ">
 
-    <h1 class="hd p-2 servicebtn text-center">
+    <h1 class="hd p-2   text-center">
         Любые услуги за ваши денишки
 </h1>
-<p class=" m-5 px-5 text-center  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
+<p class=" text-center w-100 ptext2 ptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
 <div class="row d-flex ">
 
 
-    <div class="  d-flex col-lg-6  p-2  ">
+    <div class="  d-flex col-lg-6  p-3  ">
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-5   ">
+            <div class="mycard  d-flex p-1   ">
                 <div class="col-8">
                         <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
-                        <p class="card-text pt-4">
+                        <p class="card-text pt-4 ptext">
                             Б/у запчасти для грузовых авто из Европы
                         </p>    
                         
@@ -290,21 +342,21 @@ border-radius: 8px;
         
     </div>
 
-    <div class="  d-flex col-lg-6  p-2  ">
+    <div class="  d-flex col-lg-6  p-3  ">
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-5  ">
+            <div class="mycard  d-flex p-1   ">
                 <div class="col-8">
                         <h5 class="card-title hd">Б/у запчасти для грузовых авто из Европы</h5>
-                        <p class="card-text pt-4">
+                        <p class="card-text pt-4 ptext">
                             Б/у запчасти для грузовых авто из Европы
                         </p>    
                         
                     </div>
 
                     <div class="col-md-4">
-                        <img class='' src="./images/4th.png" alt="">
+                        <img class='' src="./pngs/2nd-removebg-preview.png" alt="">
                     </div>
 
                 </div>
@@ -315,14 +367,14 @@ border-radius: 8px;
 
     </div>
 
-    <div class="  d-flex col-lg-6  p-2  ">
+    <div class="  d-flex col-lg-6  p-3  ">
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-5   ">
+            <div class="mycard  d-flex p-1    ">
                 <div class="col-8">
                         <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
-                        <p class="card-text pt-4">
+                        <p class="card-text pt-4 ptext">
                             Б/у запчасти для грузовых авто из Европы
                         </p>    
                         
@@ -338,14 +390,14 @@ border-radius: 8px;
 
         
     </div>
-    <div class="  d-flex col-lg-6  p-2  ">
+    <div class="  d-flex col-lg-6  p-3  ">
 
 
         <div class=" mycard  p-3     ">
-            <div class="mycard  d-flex p-5   ">
+            <div class="mycard  d-flex p-1   ">
                 <div class="col-8">
                         <h5 class="card-title hd ">Б/у запчасти для грузовых авто из Европы</h5>
-                        <p class="card-text pt-4">
+                        <p class="card-text pt-4 ptext">
                             Б/у запчасти для грузовых авто из Европы
                         </p>    
                         
@@ -382,11 +434,11 @@ border-radius: 8px;
                     
                     <h1 class='pb-2 hd'>У вас вопрос кто мы а кто мы блин    </h1>
                     
-                    <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+                    <p class="py-2 ptext ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
                     
-                    <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+                    <p class="py-2 ptext ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
                     
-                    <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+                    <p class="py-2 ptext ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
                 </div>
                 
             </div>
@@ -420,9 +472,9 @@ border-radius: 8px;
             
             <h1 class='pb-2 hd py-5 offset-3'> Где мы?   </h1>
             
-            <p class="py-2 offset-3 st">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st offset-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
-            <p class="py-2 st  offset-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 offset-3 st  ptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st offset-3  ptext ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
+            <p class="py-2 st  offset-3 ptext ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab illum labore reiciendis assumenda animi non nemo nobis architecto sunt! </p>
             
         </div>
         
@@ -492,7 +544,7 @@ border-radius: 8px;
                         
                     </strong>
                 </h2>
-                <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque voluptates voluptas porro, mollitia minima maiores nesciunt. Totam, officiis est.</p>
+                <p class="py-2 ptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque voluptates voluptas porro, mollitia minima maiores nesciunt. Totam, officiis est.</p>
             </div>
 
             
