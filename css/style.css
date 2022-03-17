@@ -84,6 +84,9 @@ li{
 .submit{
     background-color: #4762FF;
 }
+.col-8{
+    width: 46%;
+}
 
 input{
     
@@ -173,7 +176,9 @@ overflow: hidden;
     /* font-family: 'Titan One', cursive; */
 }
   
-
+.p2c{
+    width: 20px;
+}
 .timg{
     width: 100vw;
 }

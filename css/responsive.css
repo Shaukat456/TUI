@@ -134,11 +134,16 @@
 
 
      @media only screen and (max-width: 500px) {
-       
+       html{
+           font-size: 1rem;
+       }
             .lnv{
                 /* gtex */
                 text-align: left;
             
+        }
+        .cform{
+            font-size: .7rem;
         }
 
      }
@@ -182,8 +187,18 @@
 
 
  @media only screen and (max-width: 992px) {
+     html{
+         font-size: 1rem;
+     }
     .fullw{
         width: 100%;
+    }
+    .navtext{
+        font-size: .6rem;
+    }
+    .btntext{
+        font-size: .6rem;
+
     }
 
 
