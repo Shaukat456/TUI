@@ -16,6 +16,19 @@ ul li{
     /* width: 100vw; */
 
 }
+.ftext p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.25rem;
+}
+.ftext {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 1.25rem;
+}
+
 
 .w1{
     width:auto;
@@ -58,6 +71,9 @@ background: rgba(71, 98, 255, 0.08);
 border-radius: 8px;
 
 
+}
+.bgrey{
+    
 }
 
 .extrap{
@@ -104,6 +120,12 @@ footer{
 border-top: 0.7px solid #474747;
 /* width: 80%; */
 /* margin-bottom: ; */
+}
+.footer h5{
+    font-family: 'Inter';
+/* font-style: normal; */
+/* font-weight: 500; */
+font-size: 1.25rem;
 }
 .ntt{
     width: 179px;
