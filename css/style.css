@@ -29,6 +29,11 @@ font-weight: 400;
 font-size: 1rem;
 line-height: 30px;
 }
+.btext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
 
 
 .w1{
