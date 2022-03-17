@@ -12,10 +12,23 @@ ul li{
     
 
 }
+.pcard{
+    width: 42.666667%;
+}
+.p2c{
+   width: 25%;
+    }
 .mapsection{
     background: #F4F4F4;
     /* width: 100vw; */
 
+}
+.se4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size:3rem;
+line-height: 58px;
 }
 .cimg{
 
