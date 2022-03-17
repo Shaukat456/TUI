@@ -199,11 +199,19 @@ overflow: hidden;
 .siiz{
     font-size: 2.5rem;
 }
-
+.ttt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+/* font-size: 48px; */
+}
 .pdi{
     padding-left: 15vw;
 }
-
+.mapi{
+    max-width: 100vw;
+    /* min-width: 50vw; */
+}
 .st{
     
     /* font-family: 'Alfa Slab One', cursive;
