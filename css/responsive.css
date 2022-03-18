@@ -135,7 +135,7 @@
 
      @media only screen and (max-width: 500px) {
        html{
-           font-size: .9rem;
+           font-size: rem;
        }
             .lnv{
                 /* gtex */
